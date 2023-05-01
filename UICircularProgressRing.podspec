@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
                       DESC
   spec.license      = { :type => "MIT", :file => "LICENSE.md" }
   spec.author             = { "Luis Padron" => "heyluispadron@gmail.com" }
-  spec.ios.deployment_target = "10.0"
+  spec.ios.deployment_target = "11.0"
   spec.tvos.deployment_target = "10.0"
   spec.source       = { :git => "https://github.com/luispadron/UICircularProgressRing.git", :tag => "v#{spec.version}" }
   spec.source_files  = "Legacy", "Legacy/**/*.{h,m,swift}"
